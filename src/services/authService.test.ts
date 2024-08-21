@@ -10,7 +10,7 @@ beforeEach(() => {
 
 describe('Auth Service Tests', () => {
   it('should login successfully', async () => {
-    const email = 'eve.holt2@reqres.in';
+    const email = 'eve.holt@reqres.in';
     const password = 'cityslicka';
     const mockResponse = { token: 'fake_token' };
     mock.onPost('/login').reply(200, mockResponse);
